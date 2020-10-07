@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: rgb(110, 205, 235);
 }
 
 .page-header ul{
