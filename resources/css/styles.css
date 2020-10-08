@@ -1,15 +1,18 @@
+
+/* body style */
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     margin: 0;
-}
+  }
 
-.page-header {
-    display: flex;
+/* nav bar style */
+.page-header{
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(110, 205, 235);
+    background-color: rgb(81, 150, 177);
 }
 
 .page-header ul{
@@ -17,10 +20,24 @@ body{
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-}
+  }
 
-.page-header a{
+  .page-header a{
     display: block;
     padding:0.5em;
     text-decoration:none;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-column-gap: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .item {
+    border: solid 1px;
+    width: 300px;
+    margin-top: 30px;
   }
