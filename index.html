@@ -1,30 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <title>Mood SHOP</title>
-  <link rel='stylesheet' href='./resources/css/styles.css'>
+<title>Mood-Shop</title>
+    <link rel='stylesheet' href='./resources/css/styles.css'>
 </head>
 
 <body>
-
-  <header class='page-header'>
-      <h4>The Mood Shop</h4>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Cart</a></li>
-        </ul>
-      </nav>
+ 
+    <header class = 'page-header'>
+        <h4>The Mood Shop</h4>
+        <nav>
+            <ul>
+                <li><a href= "#">Home</a></li>
+                <li><a href= "#">About</a></li>
+                <li><a href= "#">Cart</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class='items' id='items'>
-      <!--
-        Display moods here
-       -->
-  </main>
-  <script src='./resources/js/scripts.js' type="module">
-  </script>
-</body>
+        <!--
+          Display moods here
+         -->
+    </main>
 
+
+    <footer>
+        <form id="add-form">
+            <label>Name: <input id = "item-name" 
+                type="text" 
+                placeholder = "Item Name"></label>
+
+            <label>Price : <input id = "item-price" 
+                type="number" 
+                step = "0.01"></label>
+
+            <button type = "submit">Add Item</button>
+        </form>
+        
+        <div id='cart-qty'>
+        <!-- cart qty here -->
+        </div>
+
+        <ul id='item-list'>
+        <!-- cart items -->
+        </ul>
+
+        <div id='cart-total'>
+        <!-- cart total -->
+        </div>
+
+    </footer>
+
+<script src='./resources/js/scripts.js' type="module"></script>
+</body>
+</html>
