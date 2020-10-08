@@ -2,14 +2,14 @@
 /* body style */
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     margin: 0;
   }
 
 /* nav bar style */
 .page-header{
-    font-size: 25px;
+    font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display:flex;
     flex-direction: row;
